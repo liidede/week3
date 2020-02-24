@@ -40,3 +40,24 @@ body {
   height: 650px;
   margin-top: 200px;
 }
+
+.jumbotron h1,
+.jumbotron p {
+  line-height: 70px;
+  font-weight: bold;
+}
+
+[alt="mouse click"] {
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.portfolio-img {
+  display: block;
+  width: 100%;
+}
+
+.form-row{
+  width: 75%;
+}
