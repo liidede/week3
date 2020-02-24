@@ -16,3 +16,14 @@ body {
   background-size: cover;
   height: 100vh;
 }
+
+#service {
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+/* #service div {
+  padding: 3rem;
+} */
