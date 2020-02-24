@@ -27,3 +27,16 @@ body {
 /* #service div {
   padding: 3rem;
 } */
+
+#contact {
+  background-image: url(../assets/backgrounds/c_image.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.container-fluid .jumbotron {
+  position: relative;
+  height: 650px;
+  margin-top: 200px;
+}
