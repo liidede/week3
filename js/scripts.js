@@ -7,3 +7,8 @@ $().ready(function () {
     $("#develop-1").toggle();
     $("#develop-2").toggle();
   });
+  $("#product").click(function () {
+    $("#product-1").toggle();
+    $("#product-2").toggle();
+  });
+});
