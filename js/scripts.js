@@ -12,3 +12,10 @@ $().ready(function () {
     $("#product-2").toggle();
   });
 });
+$().ready(function () {
+  $(".portfolio-info").mouseenter(function () {
+    $(this).fadeTo("fast", 1)
+  })
+  $(".portfolio-info").mouseleave(function () {
+    $(this).fadeTo("fast", 0)
+  })
