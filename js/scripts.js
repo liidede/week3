@@ -19,3 +19,13 @@ $().ready(function () {
   $(".portfolio-info").mouseleave(function () {
     $(this).fadeTo("fast", 0)
   })
+})
+$().ready(function () {
+$("#contact form").submit(function (event) {
+  var userName = $("input#userName").val();
+  var userEmail = $("input#userEmail").val();
+  var message = $("input#message").val();
+  alert("Hey, " + userName + ". We got your message. Thanks for reaching out to us.")
+  event.preventDefault()
+})
+})
